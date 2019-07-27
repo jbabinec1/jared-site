@@ -1,0 +1,63 @@
+.headerContainer {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right:0;
+    background: #000000; /* was #111111*/
+    color: grey;
+    z-index: 1;
+    padding: 0px;
+    height: 83px;
+    overflow: hidden;
+    
+}
+
+.nav-container{
+    display: flex;
+    height: inherit;
+
+}
+
+.links, .links a {
+    padding: 10px;
+   
+   
+   
+}
+
+.links a.active {
+    background-color: rgb(128, 128, 128);
+}
+
+ul {
+    list-style: none;
+}
+
+.nav-header_item {
+font-family: Teko,Oswald,sans-serif;
+font-size: 18px;
+}
+
+ .linky-logo .image {
+    
+    padding: 0 20px;
+    width: 100px;
+    height: 94px;
+    border: 1px solid red;
+} 
+
+.linky-logo .image.active {
+    display: block;
+
+    
+}
+
+
+.linky2{
+    color:#f2f2f2;
+}
+
+.item-container {
+    display: flex;
+    align-items:center; 
+}
