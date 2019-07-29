@@ -7,7 +7,7 @@
     color: grey;
     z-index: 1;
     padding: 0px;
-    height: 83px;
+    height: 63px; /* 83px  */
     overflow: hidden;
     
 }
@@ -26,7 +26,8 @@
 }
 
 .links a.active {
-    background-color: rgb(128, 128, 128);
+    /*background-color: rgb(128, 128, 128); */
+    color: white;
 }
 
 ul {
@@ -35,29 +36,58 @@ ul {
 
 .nav-header_item {
 font-family: Teko,Oswald,sans-serif;
-font-size: 18px;
+font-size: 15px;
+padding: 0px 12px;
+}
+
+li.nav-header_item .active {
+    border-bottom: 2px solid white;
 }
 
  .linky-logo .image {
     
-    padding: 0 20px;
-    width: 100px;
-    height: 94px;
+    padding: 0 27px;
+    width: 103px;
+    height: 105px;
     border: 1px solid red;
+    color: red;
 } 
 
-.linky-logo .image.active {
+.item-box .active{
+    display: flex;
+    height: 52px;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+
+a.linky2 .active {
     display: block;
+    border-bottom-color:white;
 
     
 }
 
 
 .linky2{
-    color:#f2f2f2;
+    color:#adadad; /* was f2f2f2 */
 }
+a:hover  {
+    color: white;
+}
+a.active {
+    color: white;
+}
+
+svg, image{
+    color: purple;
+}
+
+
 
 .item-container {
     display: flex;
     align-items:center; 
+    width: 500px;
+    padding-left: 10px;
+    min-height: 39px;
 }

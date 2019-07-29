@@ -4,6 +4,7 @@ import { HelloYouComponent } from './hello-you/hello-you.component';
 import { BlogPostListingComponent } from './blog-post-listing/blog-post-listing.component';
 import { BlogPostDetailsComponent } from './blog-post-details/blog-post-details.component';
 import { HomeComponent } from './home/home.component';
+import { AboutComponent } from './about/about.component';
 
 
 const routes: Routes = [
@@ -12,7 +13,9 @@ const routes: Routes = [
   {path: 'home/:slug', component: BlogPostDetailsComponent},
   {path: 'home', component: HomeComponent},
   {path: 'hello-you', component: HelloYouComponent},
+  {path: 'about', component: AboutComponent},
   {path: '**', redirectTo: 'home'}
+
 
 
 ];
