@@ -91,9 +91,21 @@ a.linky2.active{
     border-bottom: 2px solid white;
 }
 
-#path0{
-    fill: red;
+
+
+img.linky-logo.image {
+    background-color:none;
 }
+
+.JWB{
+    fill:red;
+}
+
+
+
+
+
+
 
 
 svg, img {
@@ -101,8 +113,9 @@ svg, img {
     height: 105px;
     
     
-}
+} 
+ 
 
-svg, image:hover{
-    fill: red;
-}
+
+
+
