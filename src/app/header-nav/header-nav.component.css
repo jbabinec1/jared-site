@@ -18,8 +18,23 @@
 
 }
 
+/* flex UL container */
+.item-container {
+    display: flex;
+    align-items:center; 
+    width: 523px;
+    padding-left: 10px;
+    min-height: 39px;
+ 
+}
+
+a {
+    cursor: pointer;
+} 
+
 .links, .links a {
     padding: 10px;
+    color: red;
    
    
    
@@ -40,54 +55,54 @@ font-size: 15px;
 padding: 0px 12px;
 }
 
-li.nav-header_item .active {
-    border-bottom: 2px solid white;
+.nav-header_item a {
+    color:#ADADAD;
 }
 
+.nav-header_item a:hover  {
+    color: white;
+}
+
+
+
+/* Sets the active link to white */
+a.linky2.active{
+    color: white;
+} 
+
+
+
+/* Logooo */
  .linky-logo .image {
     
     padding: 0 27px;
-    width: 103px;
-    height: 105px;
+    width: 66px;
+    height: 36px; /* was 105px  */
     border: 1px solid red;
-    color: red;
+    
 } 
+
+
 
 .item-box .active{
     display: flex;
     height: 52px;
     align-items: center;
-    border-bottom: 1px solid white;
+    border-bottom: 2px solid white;
 }
 
-a.linky2 .active {
-    display: block;
-    border-bottom-color:white;
+#path0{
+    fill: red;
+}
 
+
+svg, img {
+    width: 103px;
+    height: 105px;
+    
     
 }
 
-
-.linky2{
-    color:#adadad; /* was f2f2f2 */
-}
-a:hover  {
-    color: white;
-}
-a.active {
-    color: white;
-}
-
-svg, image{
-    color: purple;
-}
-
-
-
-.item-container {
-    display: flex;
-    align-items:center; 
-    width: 500px;
-    padding-left: 10px;
-    min-height: 39px;
+svg, image:hover{
+    fill: red;
 }
