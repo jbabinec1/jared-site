@@ -101,7 +101,7 @@ a.linky2.active{
 
 /* Fills SVG path color when its active - YEY!! thanx angular   */
 a.linky-logo.image.active #path0.logo-active{
-    fill: red; 
+    fill:blue; 
 }
 
 
