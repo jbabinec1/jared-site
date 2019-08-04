@@ -7,7 +7,7 @@
     color: grey;
     z-index: 1;
     padding: 0px;
-    height: 63px; /* 83px  */
+    height: 57px; /* 83px  */
     overflow: hidden;
     
 }
@@ -61,7 +61,22 @@ padding: 0px 12px;
 
 .nav-header_item a:hover  {
     color: white;
+    
 }
+
+#path1.logo-background:hover{
+    fill: #252525;
+}
+
+/* Makes clicking links easier like they're blocks  */
+a.fill-div{
+    display: flex;
+    align-items: center;
+    height: 43px;
+    
+    text-decoration: none;
+}
+
 
 
 
@@ -84,9 +99,16 @@ a.linky2.active{
 
 
 
+/* Fills SVG path color when its active - YEY!! thanx angular   */
+a.linky-logo.image.active #path0.logo-active{
+    fill: red; 
+}
+
+
+
 .item-box .active{
     display: flex;
-    height: 52px;
+    height: 40px;
     align-items: center;
     border-bottom: 2px solid white;
 }
@@ -96,12 +118,19 @@ a.linky2.active{
 img.linky-logo.image {
     background-color:none;
 }
+/*
+#path1.logo-background {
+fill: grey;
+} */
 
+/*
 .JWB{
     fill:red;
+}  */
+
+g#svgg{
+    fill:red;
 }
-
-
 
 
 
