@@ -15,7 +15,13 @@
 .nav-container{
     display: flex;
     height: inherit;
+    justify-content: flex-start;
 
+}
+
+/*.ONLY 0 PADDING ON LEFT SIDE FOR LOGO */
+li.nav-header_item.JWB{
+    padding-left:0;
 }
 
 /* flex UL container */
@@ -23,7 +29,7 @@
     display: flex;
     align-items:center; 
     width: 523px;
-    padding-left: 10px;
+    padding-left: 0px;
     min-height: 39px;
  
 }
@@ -64,9 +70,24 @@ padding: 0px 12px;
     
 }
 
+/* Background of sprite changes on hover  <--  Need to find another way to do this
 #path1.logo-background:hover{
     fill: #252525;
+    pointer-events: all;
+} */
+
+
+
+
+
+/* This sets inner sprite intials on hover */
+#path0:hover{
+    pointer-events: all;
+    fill: #ffffff;;
 }
+
+
+
 
 /* Makes clicking links easier like they're blocks  */
 a.fill-div{
@@ -80,10 +101,11 @@ a.fill-div{
 
 
 
-/* Sets the active link to white */
+/* Sets the active regular nav links to white */
 a.linky2.active{
-    color: white;
+    color: #ffffff;
 } 
+
 
 
 
@@ -101,11 +123,11 @@ a.linky2.active{
 
 /* Fills SVG path color when its active - YEY!! thanx angular   */
 a.linky-logo.image.active #path0.logo-active{
-    fill:blue; 
+    fill: #ffffff;
 }
 
 
-
+/* Sets border bottom underline when regular nav links are active */
 .item-box .active{
     display: flex;
     height: 40px;
@@ -118,28 +140,13 @@ a.linky-logo.image.active #path0.logo-active{
 img.linky-logo.image {
     background-color:none;
 }
-/*
-#path1.logo-background {
-fill: grey;
-} */
-
-/*
-.JWB{
-    fill:red;
-}  */
-
-g#svgg{
-    fill:red;
-}
-
-
 
 
 
 
 svg, img {
-    width: 103px;
-    height: 105px;
+    width: 125px;
+    height: 133px;
     
     
 } 
