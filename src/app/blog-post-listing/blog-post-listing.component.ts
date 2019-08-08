@@ -10,6 +10,7 @@ import {butterService} from '/Users/Jared/jared-site/src/app/Services/butterCMS.
 export class BlogPostListingComponent implements OnInit {
   public posts: any[];
   public body: any[];
+  public created: any[];
 
   constructor() { }
 
@@ -21,6 +22,7 @@ export class BlogPostListingComponent implements OnInit {
     }).then((res) => {
         this.posts = res.data.data;
         this.body = res.data.body;
+        this.created = res.data.created;
     });
 }
 }

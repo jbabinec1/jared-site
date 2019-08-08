@@ -10,7 +10,7 @@ mat-card-title a {
 }
 mat-card-title .summary {
   margin: 1em;
-  font-size: 70%;
+  font-size: 66%; 
 }
 .mat-card{
   box-shadow: none;
@@ -21,5 +21,6 @@ mat-card-title .summary {
 .summary{
   border-bottom: 1px dotted #ADADAD;
   padding-bottom: 18px;
-  font-size: 3.75vw;
+  font-size: 3.75vw; 
 }
+
