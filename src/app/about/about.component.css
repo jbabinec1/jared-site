@@ -1,0 +1,37 @@
+
+
+.article-item-container{
+    max-width: 803px;
+    margin: 0 auto!important;
+    
+}  
+
+
+.main-container {
+    height: auto;
+ /* display: flex; */
+    margin: 0 auto;
+    width: 1206px;     /* was 1072px  */
+    max-width:100%;
+    display: flex;
+    background-color: #f2f2f2;
+} 
+
+.internal-container{
+
+    padding-top: 36px;
+    width: 100%;
+}
+
+.internal-blog-wrapper {
+    width: 839px; /*was 566px  */
+   /* margin: 0 auto;*/
+   padding-left:15px;
+}
+
+@media screen and (max-width: 936px) {
+    .internal-blog-wrapper {
+        width: auto;
+};
+} 
+

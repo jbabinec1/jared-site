@@ -8,7 +8,7 @@
     z-index: 1;
     padding: 0px;
     height: 57px; /* 83px  */
-    overflow: hidden;
+   /* overflow: hidden;  Testing SVG image in*/
     
 }
 
@@ -80,10 +80,17 @@ padding: 0px 12px;
 
 
 
-/* This sets inner sprite intials on hover */
+/* This sets inner logo intials on hover */
 #path0:hover{
     pointer-events: all;
-    fill: #ffffff;;
+    fill: #ffffff;
+}
+
+
+
+      /* Dropdown SVG */
+#Rounded_Rectangle_33_copy_4_1_:hover{
+    fill: #ffffff;
 }
 
 
@@ -113,18 +120,21 @@ a.linky2.active{
  .linky-logo .image {
     
     padding: 0 27px;
-    width: 66px;
-    height: 36px; /* was 105px  */
+    width: 125px;
+    height: 45px; /* was 105px  */
     border: 1px solid red;
+    display: none;
     
 } 
 
 
 
 /* Fills SVG path color when its active - YEY!! thanx angular   */
-a.linky-logo.image.active #path0.logo-active{
+a.linky-logo.image.active #path0.logo-active {
     fill: #ffffff;
 }
+
+
 
 
 /* Sets border bottom underline when regular nav links are active */
@@ -144,14 +154,26 @@ img.linky-logo.image {
 
 
 
-svg, img {
+svg.logo {
     width: 125px;
-    height: 133px;
+    height: 45px;
     
     
 } 
  
+  /*Dropdown svg*/
+#Capa_1{
+    width: 12px;
+    height: 13px;
+    fill: currentColor;
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
 
+.grey {
+    color: grey;
+}
 
 
 
