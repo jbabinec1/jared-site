@@ -145,7 +145,10 @@ a.linky-logo.image.active #path0.logo-active {
     border-bottom: 2px solid white;
 }
 
-
+/*
+li.nav-header_item.item-box{
+    height: 100%
+}*/
 
 img.linky-logo.image {
     background-color:none;
@@ -157,12 +160,12 @@ img.linky-logo.image {
 svg.logo {
     width: 125px;
     height: 45px;
-    
-    
+       
 } 
+
  
   /*Dropdown svg*/
-#Capa_1{
+#Capa_1 {
     width: 12px;
     height: 13px;
     fill: currentColor;
@@ -171,9 +174,27 @@ svg.logo {
     left: 2px;
 }
 
-.grey {
-    color: grey;
+.sub-nav {
+    background-color: #000000;
+    top: 100%;
+    position: absolute;
+    display: none;
+    opacity: 1;
+    padding-right: 13px;
+   
 }
 
+.sub-nav a{
+    text-decoration: none;
+}
 
+/* This shows sub nav when Projects is hovered*/
+.Projects:hover .sub-nav {
+    display: block;
+}
 
+/* Styling of actual links in sub-nav */
+.sub-item {
+    text-decoration: none;
+    padding: 5px 29px 0px 0px;
+}

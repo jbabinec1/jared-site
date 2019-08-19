@@ -24,9 +24,11 @@
 }
 
 .internal-blog-wrapper {
-    width: 839px; /*was 566px  */
+  /*  width: 839px;    Testing something */
    /* margin: 0 auto;*/
    padding-left:15px;
+   display: flex;
+   justify-content: space-between;
 }
 
 @media screen and (max-width: 936px) {
@@ -34,4 +36,14 @@
         width: auto;
 };
 } 
+
+.sidebar {
+    display: flex; 
+    width: 226px;
+    padding: 1px 22px 1px 14px;
+}
+
+.internal-main-sidebar {
+    width: inherit;
+}
 

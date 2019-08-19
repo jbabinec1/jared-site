@@ -16,6 +16,7 @@ import {FlexLayoutModule} from '@angular/flex-layout';
 import { AppMaterialModule } from './Shared';
 import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { AboutComponent } from './about/about.component';
     BlogPostListingComponent,
     BlogPostDetailsComponent,
     FooterComponent,
-    AboutComponent
+    AboutComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,
