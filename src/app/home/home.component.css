@@ -56,6 +56,11 @@ aside.sidebar.close {
     margin-right: -247px;
 }
 
+aside.sidebar.close .toggle-sidebar::after{
+    content:"\00AB";
+}
+
+
 .internal-main-sidebar {
     width: inherit;
     padding-top:20px;
