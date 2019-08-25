@@ -1,5 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import {butterService} from '/Users/Jared/jared-site/src/app/Services/butterCMS.service';
+
+
+ 
 
 
 @Component({
@@ -9,11 +12,24 @@ import {butterService} from '/Users/Jared/jared-site/src/app/Services/butterCMS.
 })
 export class HomeComponent implements OnInit {
 
+ public toggle: boolean; 
+
   constructor() { }
 
+  
+  
+
   ngOnInit() {
+   
+    this.toggle = false; 
     
   }
+
+
+    closeNav(){
+      this.toggle = !this.toggle;
+    } 
+
 
 
 }
