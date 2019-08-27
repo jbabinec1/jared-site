@@ -53,12 +53,42 @@ aside.sidebar.expanded  {
 }
 
 aside.sidebar.close {
-    margin-right: -247px;
+    margin-right: -223px;
 }
 
+
+
+
+/* Styling for the arrow button thing when sidebar is closed   */
 aside.sidebar.close .toggle-sidebar::after{
     content:"\00AB";
+    background: #d9d9d9;
+    padding-right: 4px;
+    padding-bottom: 3px;
+    padding-left: 2px;
+    font-size: 33px;
+    position: relative;
+    left: 9px;
+    font-size: 33px;
+
+
+
 }
+
+
+aside.sidebar.close app-sidebar.internal-main-sidebar {
+
+    display: none;
+
+}
+
+
+aside.sidebar.close .toggle-sidebar {
+    width: 52px;
+}
+
+
+
 
 
 .internal-main-sidebar {
@@ -69,7 +99,7 @@ aside.sidebar.close .toggle-sidebar::after{
 .toggle-sidebar{
     top: -1px;
     bottom: 0px;
-    width: 18px;
+    width: 23px;
     position: relative;
     right: 15px; 
 }
@@ -88,7 +118,7 @@ span.toggle-sidebar:hover{
     display: inline-block;
     cursor: pointer;
     content: "\00BB";
-    font-size: 24px;
+    font-size: 33px;
     padding-right: 4px;
     padding-bottom: 3px; 
 }
