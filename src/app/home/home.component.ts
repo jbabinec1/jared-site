@@ -12,9 +12,13 @@ import {butterService} from '/Users/Jared/jared-site/src/app/Services/butterCMS.
 })
 export class HomeComponent implements OnInit {
 
+  closeNav()  {
+    this.toggle = !this.toggle;
+  } 
+
  public toggle: boolean; 
 
-  constructor() { }
+  constructor(  ) { }
 
   
   
@@ -26,9 +30,12 @@ export class HomeComponent implements OnInit {
   }
 
 
-    closeNav(){
+  /*
+    closeNav():void {
       this.toggle = !this.toggle;
     } 
+
+    */
 
 
 

@@ -17,6 +17,7 @@ import { AppMaterialModule } from './Shared';
 import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import {WelcomeService} from './Services/welcome.service';
 
 
 @NgModule({
@@ -31,7 +32,9 @@ import { SidebarComponent } from './sidebar/sidebar.component';
     BlogPostDetailsComponent,
     FooterComponent,
     AboutComponent,
-    SidebarComponent
+    SidebarComponent,
+    
+
   ],
   imports: [
     BrowserModule,
@@ -40,10 +43,11 @@ import { SidebarComponent } from './sidebar/sidebar.component';
     BrowserAnimationsModule,
     FlexLayoutModule,
     FormsModule,
-    AppMaterialModule
+    AppMaterialModule,
+    
   
   ],
-  providers: [],
+  providers: [WelcomeService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
