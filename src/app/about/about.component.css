@@ -15,7 +15,7 @@ html {
 .main-container {
     height: 100%;
  /* display: flex; */
-    margin: 0 auto;
+    margin: 0 auto; 
     width: 1206px;    
     max-width:100%;
     display: flex;
@@ -115,6 +115,7 @@ aside.sidebar.close .toggle-sidebar {
 .internal-main-sidebar {
     width: inherit;
     padding-top:20px;
+    width: 226px;
 }
 
 .toggle-sidebar{
@@ -142,4 +143,20 @@ span.toggle-sidebar:hover{
     font-size: 33px;
     padding-right: 4px;
     padding-bottom: 3px; 
-} 
+}  
+
+
+.article-background{
+    background-color: #f2f2f2;
+}
+
+
+@media screen and (max-width: 1203px) {
+
+    aside.sidebar.close {
+        margin-right:0px;
+        width: 52px;
+        padding-right:0px;
+    }
+
+}

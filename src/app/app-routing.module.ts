@@ -13,8 +13,8 @@ const routes: Routes = [
   {path: 'home/:slug', component: BlogPostDetailsComponent},
   {path: 'home', component: HomeComponent},
   {path: 'hello-you', component: HelloYouComponent},
-  {path: 'about', component: AboutComponent},
-  {path: '**', redirectTo: 'home'}
+  {path: 'about', component: AboutComponent}
+  /* {path: '**', redirectTo: 'home'} */
 
 
 

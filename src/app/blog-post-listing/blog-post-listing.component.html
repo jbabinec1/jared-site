@@ -20,7 +20,8 @@
             <div class="container">
               <div fxLayout="column" class="summary">
             <!--    <div [innerHTML]="post.summary"></div> -->
-                <div [innerHTML] ="post.created"></div> 
+                <div [innerHTML] ="post.published.substring(0,10)"></div> 
+                <div [innerHTML] ="post.author.first_name"></div>
                 <div [innerHTML]="post.body"></div>
 
     
