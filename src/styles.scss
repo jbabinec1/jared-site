@@ -9,9 +9,20 @@ html {
     min-height: 100%;
     height: 100%;
     margin: 0;
-    background-color: #a5aaad;
+  //  background-color: #a5aaad;
   }
 
   .mat-card-content {
     margin-top: 14px;
+  }
+
+  #grad1 {
+    /*
+    height: 200px;
+    background-color: #a5aaad;
+    background-image: linear-gradient(#a5aaad, transparent); /* Standard syntax (must be last) */ 
+    //background: radial-gradient(#BDC3C7 38%, transparent 9%, #a5aaad 93%);
+    
+    background: radial-gradient(#BDC3C7 0%, transparent 0%, #a5aaad 100%);
+   
   }
