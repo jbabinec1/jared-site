@@ -130,7 +130,12 @@ a.linky2.active{
 
 
 
-/* Fills SVG path color when its active - YEY!! thanx angular   */
+/* Fills SVG path color when its active - YEY!! thanx angular Need to make up damn mind on logo   */
+a.linky-logo.image.active #path0.logo-active {
+    fill: #ffffff;
+}
+
+/* TEST with new JWB svg  */
 a.linky-logo.image.active #path0.logo-active {
     fill: #ffffff;
 }
@@ -163,6 +168,15 @@ svg.logo {
     height: 45px;
        
 } 
+
+/* TEST with new JWB svg */ 
+svg.logo_header {
+
+    width: 117px;
+    height: 62px;
+    padding-top: 18px;
+
+}
 
  
   /*Dropdown svg*/
