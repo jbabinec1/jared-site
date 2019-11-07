@@ -18,8 +18,7 @@
     overflow: hidden;
 } 
 
-.internal-container{
-
+.internal-container {
     padding-top: 0px;  /* was 36px*/
     width: 100%;
 }
@@ -44,7 +43,7 @@
 
 .sidebar {
     display: flex; 
-    width: 221px;    /* Was 226px;   */
+    width: 210px;    /* Was 226px;   */
     padding: 1px 22px 1px 14px;
     background-color: #f0f0f0; /*#d9d9d9;*/
     border-left:1px solid #f0f0f0;
@@ -56,7 +55,7 @@ aside.sidebar.expanded  {
 }
 
 aside.sidebar.close {
-    margin-right: -223px;
+    margin-right: -209px;
 }
 
 
@@ -79,7 +78,6 @@ aside.sidebar.close .toggle-sidebar::after {
 
 
 
-
 aside.sidebar.close app-sidebar.internal-main-sidebar {
 
     display: none;
@@ -93,32 +91,26 @@ aside.sidebar.close .toggle-sidebar {
 
 
 
-
-
 .internal-main-sidebar {
     width: inherit;
     padding-top:20px;
 }
 
-.toggle-sidebar{
+.toggle-sidebar {
     top: -1px;
     bottom: 0px;
     width: 23px;   
     position: relative;
     right: 15px; 
- /* border-left:1px solid #e0e0e0e0; */
 
 }
 
 span.toggle-sidebar:hover {
-
-   /* background-color:#e9e9e9; */
     cursor: pointer;
 }
 
 aside.sidebar.expanded .toggle-sidebar:hover {
 
-   /*box-shadow: -4px 12px 1px -3px #e0e0e0;*/
     box-shadow: inset 4px 34px 7px -3px #e0e0e0;
     background-color: none;
     

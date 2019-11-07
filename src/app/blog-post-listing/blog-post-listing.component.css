@@ -18,9 +18,10 @@ mat-card-title .summary {
   height:100%;
 } 
 
-.summary{
+.summary {
   border-bottom: 1px dotted #ADADAD;
   padding-bottom: 18px;
   font-size: 3.75vw; 
+  font-weight: normal; 
 }
 

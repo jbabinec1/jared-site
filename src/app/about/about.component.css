@@ -60,7 +60,7 @@ html {
 
 .sidebar {
     display: flex; 
-    width: 221px;    /* Was 226px;   */
+    width: 210px;    /* Was 226px;   */
     padding: 1px 22px 1px 14px;
     background-color: #f0f0f0; /*#d9d9d9;*/
     border-left:1px solid #f0f0f0;
@@ -72,7 +72,7 @@ aside.sidebar.expanded  {
 }
 
 aside.sidebar.close {
-    margin-right: -223px;
+    margin-right: -209px;
 }
 
 
