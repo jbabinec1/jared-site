@@ -1,3 +1,7 @@
+header {
+    transition: top 0.2s ease-in-out;
+}
+
 .headerContainer {
     /*position: fixed;*/
     top: 0;
@@ -9,6 +13,7 @@
     padding: 0px;
     height: 57px; /* 83px  */
    /* overflow: hidden;  Testing SVG image in*/
+   transition: top 0.2s ease-in-out;
     
 }
 
@@ -18,6 +23,11 @@
     justify-content: flex-start;
     position: absolute; 
 
+}
+
+.navScroll {
+
+    margin-top: -40px;
 }
 
 /*.ONLY 0 PADDING ON LEFT SIDE FOR LOGO */

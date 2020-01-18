@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef, HostListener } from '@angular/core';
 import {butterService} from '/Users/Jared/jared-site/src/app/Services/butterCMS.service';
 
 
@@ -28,6 +28,9 @@ export class HomeComponent implements OnInit {
     this.toggle = false; 
     
   }
+
+
+
 
 
   /*
