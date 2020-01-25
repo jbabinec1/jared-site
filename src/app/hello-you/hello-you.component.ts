@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {butterService} from '/Users/Jared/jared-site/src/app/Services/butterCMS.service';
+import {butterService} from './../Services/butterCMS.service';
 
 
 @Component({

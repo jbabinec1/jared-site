@@ -1,7 +1,7 @@
 import {Component, OnInit, ViewEncapsulation} from '@angular/core';
 import {Observable} from 'rxjs';
 import {ActivatedRoute} from '@angular/router';
-import { butterService } from '/Users/Jared/jared-site/src/app/Services/butterCMS.service';
+import { butterService } from '.././Services/butterCMS.service';
 import {map, take} from 'rxjs/operators';
 
 
