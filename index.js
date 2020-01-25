@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express(); 
+var path = require('path');
 
 
 
@@ -12,7 +13,7 @@ const app = express();
 
 
 
-app.use(express.static('dist/jared-site'));
+app.use(express.static('/dist/jared-site'));
 app.use('/*', function(req, res) {
     res.sendFile(path.join(__dirname, '/dist/jared-site/index.html'));
  }); 
