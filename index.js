@@ -13,7 +13,7 @@ var path = require('path');
 
 
 
-app.use(express.static('/dist/jared-site'));
+app.use(express.static('dist/jared-site'));
 app.use('/*', function(req, res) {
     res.sendFile(path.join(__dirname, '/dist/jared-site/index.html'));
  }); 
