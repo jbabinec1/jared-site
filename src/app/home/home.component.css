@@ -43,7 +43,7 @@
 
 .sidebar {
     display: flex; 
-    width: 210px;    /* Was 226px;   */
+    width: 204px;    /* Was 210px;   */
     padding: 1px 22px 1px 14px;
     background-color: #f0f0f0; /*#d9d9d9;*/
     border-left:1px solid #f0f0f0;
