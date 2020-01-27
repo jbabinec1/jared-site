@@ -29,3 +29,11 @@ html {
     background: radial-gradient(#BDC3C7 0%, transparent 0%, #a5aaad 0%);
    
   }
+
+  @media screen and (max-width: 375px) {
+
+    body {
+       width: 140%;
+    }
+
+}

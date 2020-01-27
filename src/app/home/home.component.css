@@ -166,3 +166,14 @@ aside.sidebar.close:hover {
     }
 
 }
+
+
+@media screen and (max-width: 1203px) {
+
+    .sidebar {
+        
+        width: 148px;
+       
+    }
+
+}
