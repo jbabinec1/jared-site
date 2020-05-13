@@ -108,7 +108,7 @@ padding: 0px 12px;
 
 
 /* Makes clicking links easier like they're blocks  */
-a.fill-div{
+a.fill-div {
     display: flex;
     align-items: center;
     height: 43px;
@@ -222,5 +222,5 @@ svg.logo_header {
 /* Styling of actual links in sub-nav */
 .sub-item {
     text-decoration: none;
-    padding: 5px 29px 0px 0px;
+    padding: 11px 29px 5px 0px;
 }
