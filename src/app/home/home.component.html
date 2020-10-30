@@ -7,6 +7,8 @@
 [ngClass]="toggle ? 'close': 'expanded' "> <span class="toggle-sidebar"> </span> <app-sidebar class="internal-main-sidebar"></app-sidebar>  
 </aside>  
 
+<div *ngIf="isScreenSmall$ | async"> <app-sidebar class="internal-main-sidebar"></app-sidebar>  </div>
+
 </div> <!--Internal Blog Wrapper-->
 
     </div> <!--end internal-container-->

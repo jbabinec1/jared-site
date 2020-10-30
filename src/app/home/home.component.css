@@ -27,7 +27,7 @@
   /*  width: 839px;    Testing something */
    /* margin: 0 auto;*/
    padding-left:15px;
-   display: flex;
+   /*display: flex;*/
    justify-content: space-between;
     
 }
@@ -43,7 +43,7 @@
 
 .sidebar {
     display: flex; 
-    width: 204px;    /* Was 210px;   */
+    width: 204px;   
     padding: 1px 22px 1px 14px;
     background-color: #f0f0f0; /*#d9d9d9;*/
     border-left:1px solid #f0f0f0;
@@ -52,11 +52,14 @@
 aside.sidebar.expanded  {
 
     margin-right: 0px;
-}
+}  
+
+
 
 aside.sidebar.close {
-    margin-right: -209px;
-}
+    /*margin-right: -209px;*/
+    width: 9px;
+}   
 
 
 
@@ -70,7 +73,7 @@ aside.sidebar.close .toggle-sidebar::after {
     padding-left: 2px;
     font-size: 33px;
     position: relative;
-    left: 9px;
+    left: 3px;
     font-size: 33px;
 
 
@@ -161,19 +164,69 @@ aside.sidebar.close:hover {
 
     aside.sidebar.close {
         margin-right:0px;
-        width: 52px;
+        /*width: 52px;*/
         padding-right:0px;
     }
 
 }
 
 
-@media screen and (max-width: 1203px) {
+/*@media screen and (max-width: 1203px)  {
 
-    .sidebar {
+   .sidebar {
         
-        width: 163px;
+       width: 163px;  
        
+    } 
+
+} */
+
+
+@media screen and (min-width: 768px) {
+
+    .internal-blog-wrapper {
+
+        display:flex;
+
     }
+
+    
+
+   
+  
+
+
+    aside.sidebar.expanded  {
+
+        margin-right: 0px;
+    } 
+
+
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+
+    aside.sidebar.expanded {
+        width: auto;
+    }
+
+    aside.sidebar.close {
+        width: 900px;
+    }
+
+    aside.sidebar {
+        display: none;
+    }
+
+
+ /*   aside.sidebar.close app-sidebar.internal-main-sidebar {
+        display: block;
+        width:auto!important;
+    } */
+
 
 }
