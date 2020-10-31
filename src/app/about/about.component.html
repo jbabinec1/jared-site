@@ -1,22 +1,35 @@
-<!-- <div class="page-body"> -->
+
+ <!---- <div class="big-container">  -->
 <div class="main-container">
+
         <div class="internal-container">
-         
+ 
           <div class="internal-blog-wrapper">
             <div class="internal-about">
     <h1 style="text-align:center;">Helllllo </h1>
+    <div class="paragraph-container"> 
     <p style="padding-left: 31px;"> Hello! Thank you for visiting my blogfolio. I will share new things that I have learned and observations mainly on my interests. Those observations mostly about softare development and video games. I like learning. And video games. And I want to show you why. </p>
 
     <p style="text-align:center;">Social links: ?? </p>
 
 
     <p style="padding-left:31px;">I'm currently not looking for a new job. I just wanna share and document stuff that I'm thinking about. </p>
+
+
+    
+
+    </div> <!--paragraph container-->
     </div>
 
+    <div class="screen-small-sidebar" *ngIf="isScreenSmall$ | async"> <app-sidebar class="internal-main-sidebar"></app-sidebar>  </div> 
 
+    
     <aside class="sidebar" (click)="closeNavy()"
     [ngClass]="toggle ? 'expanded': 'close' "> <span class="toggle-sidebar"> </span> <app-sidebar class="internal-main-sidebar"></app-sidebar>  
     </aside>  
+
+    <!----
+    <div class="screen-small-sidebar" *ngIf="isScreenSmall$ | async"> <app-sidebar class="internal-main-sidebar"></app-sidebar>  </div> -->
 
 
 
@@ -24,9 +37,18 @@
       
       
           </div> <!--end internal-container-->
-          </div>
 
-          <app-footer></app-footer> 
+
+        </div> <!--End of main-container-->
+
+          <app-footer class="app-footer"></app-footer> 
+
+         
+
+         <!---- <app-footer></app-footer> -->
+
+
+      
 
 
         <!-- </div> -->

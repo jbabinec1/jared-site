@@ -13,29 +13,33 @@ html {
 
 
 .main-container {
-    height: 100vh;
-    height: -webkit-fill-available;
+   height: 1020px;
+   /* height: -webkit-fill-available; */
  /* display: flex; */
     margin: 0 auto; 
     width: 1206px;    
     max-width:100%;
     display: flex;
     background-color: #f2f2f2;
+    flex-direction: column;
 } 
 
 .internal-container{
 
     padding-top: 0px;
     width: 100%;
+    height: 100%;
+    display: flex;
 }
 
 .internal-blog-wrapper {
     /* width: 839px;  */    /*was 566px  */
    /* margin: 0 auto;*/
    padding-left:15px;
-   display: flex; 
+  /* display: flex; */
    justify-content: space-between;
-   height: 100%;
+  /* height: 100%; */
+  /*height: 100vh;*/
    overflow: hidden;
    background-color: #f8f8f8;
 }  
@@ -48,6 +52,13 @@ html {
     width: 72%;
     padding-left: 58px;
     background-color: #f8f8f8;
+    /*padding-bottom: 330px;*/
+    padding-bottom: 94px;
+    /*height: 100%;*/
+}
+
+.paragraph-container {
+    font-size: 3.8vh;
 }
 
 
@@ -175,6 +186,18 @@ aside.sidebar.expanded .toggle-sidebar:hover {
     background-color: #f2f2f2;
 }
 
+.big-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.app-footer {
+    position: fixed;
+    left: 0;
+    right:0;
+    bottom:0; 
+}
+
 
 @media screen and (max-width: 1203px) {
 
@@ -183,5 +206,57 @@ aside.sidebar.expanded .toggle-sidebar:hover {
         width: 52px;
         padding-right:0px;
     }
+
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .internal-blog-wrapper {
+
+        display:flex;
+
+    }
+
+    
+
+    aside.sidebar.expanded  {
+
+        margin-right: 0px;
+    } 
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+
+    aside.sidebar.expanded {
+        width: auto;
+    }
+
+    aside.sidebar.close {
+        width: 900px;
+    }
+
+    aside.sidebar {
+        display: none;
+    }
+
+
+    .main-site-container {
+        height: 100%; 
+    }
+
+
+ /*   aside.sidebar.close app-sidebar.internal-main-sidebar {
+        display: block;
+        width:auto!important;
+    } */
+
 
 }

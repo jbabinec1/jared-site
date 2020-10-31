@@ -223,6 +223,11 @@ aside.sidebar.close:hover {
     }
 
 
+    .main-site-container {
+        height: 100%; 
+    }
+
+
  /*   aside.sidebar.close app-sidebar.internal-main-sidebar {
         display: block;
         width:auto!important;
