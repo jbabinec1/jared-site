@@ -17,7 +17,7 @@ html {
    /* height: -webkit-fill-available; */
  /* display: flex; */
     margin: 0 auto; 
-    width: 1206px;    
+    width: 1980px;    
     max-width:100%;
     display: flex;
     background-color: #f2f2f2;
@@ -52,13 +52,15 @@ html {
     width: 72%;
     padding-left: 58px;
     background-color: #f8f8f8;
-    /*padding-bottom: 330px;*/
-    padding-bottom: 94px;
+    /*padding-bottom: 94px;*/
+    padding-bottom: 27px;
     /*height: 100%;*/
 }
 
 .paragraph-container {
     font-size: 3.8vh;
+    border-bottom: 1px dotted;
+    border-color: #ADADAD;
 }
 
 
