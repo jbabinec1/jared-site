@@ -13,11 +13,11 @@ html {
 
 
 .main-container {
-   height: 1020px;
+   height: 1980px;
    /* height: -webkit-fill-available; */
  /* display: flex; */
     margin: 0 auto; 
-    width: 1980px;    
+    width: 1206px;    
     max-width:100%;
     display: flex;
     background-color: #f2f2f2;
