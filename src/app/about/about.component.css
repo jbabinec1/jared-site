@@ -13,7 +13,8 @@ html {
 
 
 .main-container {
-   height: 1980px;
+   /*height: 1980px;*/
+   height: 1280px;
    /* height: -webkit-fill-available; */
  /* display: flex; */
     margin: 0 auto; 
