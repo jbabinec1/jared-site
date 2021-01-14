@@ -18,6 +18,7 @@ import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import {WelcomeService} from './Services/welcome.service';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
@@ -33,6 +34,7 @@ import {WelcomeService} from './Services/welcome.service';
     FooterComponent,
     AboutComponent,
     SidebarComponent,
+    ContactComponent,
     
 
   ],

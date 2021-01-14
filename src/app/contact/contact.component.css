@@ -1,0 +1,26 @@
+.main-container {
+    height: 1280px;
+    border: 1px solid;
+}
+
+.internal-wrapper {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+}
+
+.hello {
+    text-align: center;
+}
+
+.comment {
+
+    padding-top: 8px;
+}
+
+.comment-box {
+
+    height: 203px;
+    width: 581px; 
+
+}

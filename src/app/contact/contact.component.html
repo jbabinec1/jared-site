@@ -1,0 +1,29 @@
+
+<h2 class="hello">Hello</h2>
+<div class="main-container"> 
+<div class="internal-wrapper">    
+<div class="comment-form-container"> 
+   <!---- <form [formGroup]="commentForm" class="create-comment"> -->
+        <form class="create-comment">
+
+
+      <div class="commenter" style="display:none"> 
+      <!----  <mat-form-field class="field-full-width"> -->
+          <input class="commenter-box" placeholder="your name" readonly>
+          <!--formControlName="commenter" #commenter-->
+        
+        <!--</mat-form-field>-->
+      </div>
+
+  <div class="comment"> <textarea class="comment-box" placeholder="description"> </textarea> </div>   <!--formControlName="comment" #comment-->
+
+      <br>
+      
+   <div class="comment-button-container"> <button class="post-comment-btn" type="submit" (click)="postComment(bugData?._id)" [disabled]="postComment.pristine || postComment.invalid" mat-raised-button color="primary">Post Comment</button> </div>
+
+    <br> <br>
+    </form>
+  </div>
+
+</div> <!--End of internal-wrapper-->
+  </div>
