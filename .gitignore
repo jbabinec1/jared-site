@@ -40,7 +40,6 @@ npm-debug.log
 yarn-error.log
 testem.log
 /typings
-./mail.js 
 config.env
 
 # System Files
