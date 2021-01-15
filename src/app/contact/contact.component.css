@@ -1,12 +1,16 @@
 .main-container {
-    height: 1280px;
-    border: 1px solid;
+    height: 500px;
+   /* border: 1px solid; */
+    display: table;
+    margin: 0 auto;
+    /*max-width: 722px; */
 }
 
 .internal-wrapper {
-    border: 1px solid red;
-    display: flex;
-    justify-content: center;
+   /* border: 1px solid red;*/
+    display: table-cell;
+    
+
 }
 
 .hello {
@@ -24,3 +28,25 @@
     width: 581px; 
 
 }
+
+.commenter-box {
+    width: 205px;
+    height: 22px;
+}
+
+.commenter-box.one {
+    margin-right: 4px;
+}
+
+.comment-form-container {
+
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.mat-raised-button {
+
+    background-color: #F8F9F3;
+  
+} 

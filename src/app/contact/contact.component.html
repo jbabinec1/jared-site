@@ -1,29 +1,38 @@
 
-<h2 class="hello">Hello</h2>
+<h2 class="hello">Send me an email pls </h2>
+
 <div class="main-container"> 
-<div class="internal-wrapper">    
-<div class="comment-form-container"> 
-   <!---- <form [formGroup]="commentForm" class="create-comment"> -->
-        <form class="create-comment">
+<div class="internal-wrapper">
+  
+  
 
 
-      <div class="commenter" style="display:none"> 
+  <div *ngIf="submitted"> <p>Thanks for the message! I'll get back to you as soon as possible.</p> </div>
+
+<!-- <div class="comment-form-container"> -->
+
+    
+    <form [formGroup]="emailForm" class="create-comment">
+      <!-- <div class="commenter"> -->
       <!----  <mat-form-field class="field-full-width"> -->
-          <input class="commenter-box" placeholder="your name" readonly>
-          <!--formControlName="commenter" #commenter-->
-        
-        <!--</mat-form-field>-->
-      </div>
 
-  <div class="comment"> <textarea class="comment-box" placeholder="description"> </textarea> </div>   <!--formControlName="comment" #comment-->
+        <input class="commenter-box one" placeholder="your name" required formControlName="subject" #subject>
+
+
+          <input class="commenter-box" placeholder="your email address" required formControlName="email" #email>
+   
+     <!---- </div> --> <!--Commenter box end-->
+
+  <div class="comment"> <textarea class="comment-box" placeholder="how're you doing?" required formControlName="text" #text> </textarea> </div>   
 
       <br>
       
-   <div class="comment-button-container"> <button class="post-comment-btn" type="submit" (click)="postComment(bugData?._id)" [disabled]="postComment.pristine || postComment.invalid" mat-raised-button color="primary">Post Comment</button> </div>
+   <div class="comment-button-container"> <button class="post-comment-btn" type="submit" (click)="sendEmail(subject.value, email.value, text.value)" [disabled]="emailForm.pristine || emailForm.invalid" mat-raised-button>Send</button> </div>
 
-    <br> <br>
+    <br> <br>  <!--mat-raised-button color="primary"-->
     </form>
-  </div>
+  <!-- </div> -->  <!--End of comment form container-->
 
 </div> <!--End of internal-wrapper-->
   </div>
+

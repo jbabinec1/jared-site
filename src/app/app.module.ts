@@ -11,7 +11,7 @@ import { HelloYouComponent } from './hello-you/hello-you.component';
 import { BlogPostListingComponent } from './blog-post-listing/blog-post-listing.component';
 import { BlogPostDetailsComponent } from './blog-post-details/blog-post-details.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {FormsModule} from '@angular/forms';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {FlexLayoutModule} from '@angular/flex-layout';
 import { AppMaterialModule } from './Shared';
 import { FooterComponent } from './footer/footer.component';
@@ -45,6 +45,7 @@ import { ContactComponent } from './contact/contact.component';
     BrowserAnimationsModule,
     FlexLayoutModule,
     FormsModule,
+    ReactiveFormsModule,
     AppMaterialModule,
     
   
